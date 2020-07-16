@@ -1,0 +1,36 @@
+.login-container{
+    background: url(../images/login-background.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .login-container .login-form{
+    width: 400px;
+    height: 100vh;
+    background: #ffffff;
+    padding: 20px;
+  }
+  .login-form .title{
+    text-align: center;
+    font-size: 38px;
+    color: #757575;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .login-form .input-wrapper{
+    margin-bottom: 10px;
+  }
+  .name-wrapper .input-wrapper input{
+    width: 98%;
+  }
+  .login-form .name-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .login-form .submit-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }

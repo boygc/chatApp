@@ -1,0 +1,43 @@
+.register-container{
+    background: url(../images/register-background.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.register-container .register-form{
+    text-align: center;
+    width: 450px;
+    height: 100vh;
+    background:#ffffff;
+    padding: 20px;
+
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: #757575;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.input-wrapper{
+    margin-bottom: 10px;
+}
+.name-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.submit-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.btn{
+    padding: 8px 10px;
+    color: #ffffff;
+    background: #007bff;
+}
